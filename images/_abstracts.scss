@@ -1,0 +1,41 @@
+@media screen and (min-width: 550px) {
+  .home {    
+    grid-template-rows: repeat(20, 1fr);
+      
+    &__display {      
+      font-size: 20vw; 
+      
+      &--maria {
+        grid-area: 4/4/span 2/span 6; 
+        justify-self: right; 
+        padding-bottom: 20px;
+      }
+
+      &--pascoe {
+        grid-area: 7/2/span 2/span 6;  
+        padding-bottom: 50px;           
+      }
+    }
+    
+    &__title {
+      font-size: 6vw;           
+  
+      &--software {
+        grid-area: 10/4/span 2/span 5; 
+        padding-top: 30px;     
+      }
+  
+      &--dev {
+        grid-area: 12/2/span 2/span 5;      
+      }
+    }
+  
+    .portfolio {      
+      grid-area: 16/7/span 3/span 3;
+  
+      &__title {
+        font-size: 30px;
+      }
+    }    
+  }  
+}
