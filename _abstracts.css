@@ -1,13 +1,67 @@
+@media screen and (max-width: 767px) {
+  .nav__list {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .logo {
     height: 3.5em;
     width: 3.5em;
   }
 
+  .sm-1 {
+    width: 147px;
+    height: 147px;
+    left: 270px;
+    top: 154px;
+  }
+
+  .md-1 {
+    width: 193px;
+    height: 194px;
+    left: 380px;
+    top: 484px;
+  }
+
+  .lg-1 {
+    width: 248px;
+    height: 248px;
+    left: 100px;
+    top: 725px;
+  }
+
+  .sm-2 {
+    width: 147px;
+    height: 147px;
+    left: 459px;
+    top: 1130px;
+  }
+
+  .md-2 {
+    width: 193px;
+    height: 194px;
+    left: 240px;
+    top: 1510px;
+  }
+
+  .lg-2 {
+    width: 248px;
+    height: 248px;
+    left: 420px;
+    top: 2295px;
+  }
+
   .button {
     font-size: 1em;
     padding: 3px 7px;
     right: -30px;
+  }
+
+  .nav__icon {
+    display: none;
+  }
+  .nav__list {
+    display: block;
   }
 
   .home {
@@ -55,6 +109,7 @@
     align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px repeat(2, 1fr);
+    padding-top: 50px;
   }
   .projects__display {
     grid-area: 1/1/2/span 2;
@@ -79,7 +134,8 @@
 
   .about {
     width: 70%;
-    margin: 100px auto;
+    margin: 0 auto;
+    padding: 200px 0 0;
     line-height: 2.25em;
   }
   .about__text {
@@ -97,7 +153,8 @@
   }
 
   .contact {
-    margin: 30vh auto;
+    margin: 0 auto;
+    padding: 300px 0;
   }
   .contact__display {
     font-size: 3em;
@@ -126,6 +183,48 @@
 
   .nav__name {
     font-size: 1em;
+  }
+
+  .sm-1 {
+    width: 147px;
+    height: 147px;
+    left: 170px;
+    top: 106px;
+  }
+
+  .md-1 {
+    width: 193px;
+    height: 194px;
+    left: 708px;
+    top: 227px;
+  }
+
+  .lg-1 {
+    width: 248px;
+    height: 248px;
+    left: 288px;
+    top: 449px;
+  }
+
+  .sm-2 {
+    width: 147px;
+    height: 147px;
+    left: 604px;
+    top: 820px;
+  }
+
+  .md-2 {
+    width: 193px;
+    height: 194px;
+    left: 160px;
+    top: 1080px;
+  }
+
+  .lg-2 {
+    width: 248px;
+    height: 248px;
+    left: 560px;
+    top: 1470px;
   }
 
   .button {
@@ -195,7 +294,7 @@
     gap: 50px 0;
     margin: 100px 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px repeat(3, 1fr);
+    grid-template-rows: 400px repeat(3, 1fr);
   }
   .projects__display {
     grid-area: 1/1/2/span 2;
@@ -282,6 +381,48 @@
     font-size: 1em;
   }
 
+  .sm-1 {
+    width: 147px;
+    height: 147px;
+    left: 270px;
+    top: 206px;
+  }
+
+  .md-1 {
+    width: 193px;
+    height: 194px;
+    left: 950px;
+    top: 340px;
+  }
+
+  .lg-1 {
+    width: 248px;
+    height: 248px;
+    left: 420px;
+    top: 579px;
+  }
+
+  .sm-2 {
+    width: 147px;
+    height: 147px;
+    left: 810px;
+    top: 1010px;
+  }
+
+  .md-2 {
+    width: 193px;
+    height: 194px;
+    left: 220px;
+    top: 1260px;
+  }
+
+  .lg-2 {
+    width: 248px;
+    height: 248px;
+    left: 750px;
+    top: 1630px;
+  }
+
   .button {
     font-size: 0.75em;
     padding: 3px 7px;
@@ -348,7 +489,7 @@
     gap: 50px 0;
     margin: 100px 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px repeat(3, 1fr);
+    grid-template-rows: 400px repeat(3, 1fr);
   }
   .projects__display {
     grid-area: 1/1/2/span 2;
@@ -442,6 +583,48 @@
     width: 5em;
   }
 
+  .sm-1 {
+    width: 193px;
+    height: 193px;
+    left: 370px;
+    top: 266px;
+  }
+
+  .md-1 {
+    width: 248px;
+    height: 248px;
+    left: 1330px;
+    top: 460px;
+  }
+
+  .lg-1 {
+    width: 298px;
+    height: 298px;
+    left: 620px;
+    top: 739px;
+  }
+
+  .sm-2 {
+    width: 193px;
+    height: 193px;
+    left: 1185px;
+    top: 1360px;
+  }
+
+  .md-2 {
+    width: 248px;
+    height: 248px;
+    left: 350px;
+    top: 1790px;
+  }
+
+  .lg-2 {
+    width: 298px;
+    height: 298px;
+    left: 1040px;
+    top: 2099px;
+  }
+
   .button {
     font-size: 0.75em;
     padding: 3px 7px;
@@ -513,10 +696,11 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    gap: 50px 0;
-    margin: 100px 50px;
+    gap: 100px 0;
+    margin: 0 auto;
+    padding: 150px 0;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px repeat(3, 1fr);
+    grid-template-rows: 400px repeat(3, 1fr);
   }
   .projects__display {
     grid-area: 1/1/2/span 2;
@@ -548,7 +732,7 @@
   }
   .projects__text {
     width: 50%;
-    font-size: 1.25em;
+    font-size: 1.5em;
     padding: 2vw;
     font-weight: bold;
     margin: 2vh 0vh 2vh;
@@ -558,7 +742,8 @@
 
   .about {
     width: 60%;
-    margin: 200px auto 100px;
+    margin: 0 auto;
+    padding: 200px 50px 100px;
     line-height: 3em;
   }
   .about__text {
@@ -576,7 +761,8 @@
   }
 
   .contact {
-    margin: 30vh auto;
+    margin: 0 auto;
+    padding: 250px 0;
     line-height: 5em;
   }
   .contact__display {
