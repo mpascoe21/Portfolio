@@ -958,8 +958,8 @@
   .sm-1 {
     width: 193px;
     height: 193px;
-    left: 370px;
-    top: 306px;
+    left: 375px;
+    top: 295px;
   }  
 
   .md-1 {
@@ -979,64 +979,64 @@
   .sm-2 {
     width: 193px;
     height: 193px;
-    left: 1110px;
-    top: 1310px;
+    left: 1090px;
+    top: 1220px;
   }  
 
   .md-2 {
     width: 248px;
     height: 248px;
-    left: 350px;
-    top: 1640px;
+    left: 280px;
+    top: 1755px;
   }
 
   .lg-2 {
     width: 298px;
     height: 298px;
-    left: 960px;
-    top: 2009px;
+    left: 1460px;
+    top: 2460px;
   }
   
   .sm-4 {
     width: 193px;
     height: 193px;
     left: 340px;
-    top: 2455px;
+    top: 3125px;
   }  
 
   .md-4 {
     width: 248px;
     height: 248px;
-    left: 540px;
-    top: 3070px;
+    left: 550px;
+    top: 3870px;
   }
 
   .lg-4 {
     width: 298px;
     height: 298px;
-    left: 650px;
-    top: 3550px;
+    left: 1000px;
+    top: 4290px;
   }
 
   .sm-5 {
     width: 193px;
     height: 193px;
     left: 1450px;
-    top: 3890px;
+    top: 4790px;
   }  
 
   .md-5 {
     width: 248px;
     height: 248px;
-    left: 710px;
-    top: 4080px;
+    left: 660px;
+    top: 4800px;
   }
 
   .lg-5 {
     width: 298px;
     height: 298px;
     left: 1140px;
-    top: 4680px;
+    top: 5350px;
   }
 
   .button {
@@ -1119,7 +1119,7 @@
     display: grid;  
     align-items: center;    
     justify-items: center;
-    gap: 100px 0;
+    gap: 200px 0;
     margin: 0 auto;
     padding: 150px 0;
     grid-template-columns: 1fr;
@@ -1161,9 +1161,15 @@
       }
     }
 
+    &__description {
+      align-self: center;
+      width: 50%;
+      margin-top: 0;
+    }
+
     &__text {
       width: 100%;
-      font-size: 1.5em;
+      font-size: 2em;
       padding: 1vw;
       font-weight: bold;
      // margin: 2vh 0vh 2vh;
@@ -1173,7 +1179,12 @@
     }  
     
     &__icons {
-      margin-bottom: 1vh;
+      margin-bottom: 2vh;
+      font-size: 2em;
+    }
+
+    &__links {
+      font-size: 1.5em;
     }
   }
 
