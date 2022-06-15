@@ -6,6 +6,8 @@ This was my first design project on the \_nology course I have been studying and
 
 I designed the prototype in **Figma**, which you can view **[here](https://www.figma.com/file/5KhQ0iZGTDPSVlyacnWt3y/Portfolio-final)**
 
+#### 🌐 You can view my portfolio [here](https://mpascoe21.github.io/Portfolio/)
+
 <br>
 
 <img src="https://media.giphy.com/media/DyC4L4w0wGRWsCBT6u/giphy.gif"/>
